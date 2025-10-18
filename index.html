@@ -1,0 +1,246 @@
+<!doctype html>
+
+<html lang="si">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>K N SHASHIPRIYA — Contact / Links</title>
+  <style>
+    :root{
+      --bg:#05070c;                 /* deeper black-mix base */
+      --card:#0b111b;
+      --accent1:linear-gradient(90deg,#ff5f6d,#ffc371);
+      --accent2:linear-gradient(90deg,#6a11cb,#2575fc);
+      --glass: rgba(255,255,255,0.05);
+      --text:#e6eef8;
+      --muted:#98a6bd;
+      --radius:14px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      min-height:100vh;
+      font-family:"Segoe UI", Roboto, Arial, sans-serif;
+      /* Black-mixed background with subtle color glows */
+      background:
+        radial-gradient(1200px 450px at 12% 10%, rgba(37,99,235,0.10), transparent),
+        radial-gradient(900px 360px at 88% 92%, rgba(255,95,109,0.08), transparent),
+        linear-gradient(180deg, #000000, #0a0f18 50%, #05070c);
+      color:var(--text);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:28px;
+    }
+    .wrap{
+      width:980px;
+      max-width:96%;
+      background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.015));
+      border-radius:20px;
+      box-shadow: 0 12px 36px rgba(0,0,0,0.5);
+      padding:26px;
+      border: 1px solid rgba(255,255,255,0.04);
+      backdrop-filter: blur(6px);
+    }
+    .header{ display:flex; gap:18px; align-items:center; margin-bottom:18px }.avatar{
+  width:112px;
+  height:96px;
+  border-radius:12px;
+  background:linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+  display:flex; align-items:center; justify-content:center;
+  border:1px solid rgba(255,255,255,0.08);
+  position:relative;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.03), 0 10px 24px rgba(0,0,0,0.45);
+  padding:10px;
+}
+.clock{ display:flex; flex-direction:column; align-items:center; line-height:1.1 }
+.clock-date{ font-size:12px; color:var(--muted) }
+.clock-time{ font-size:22px; font-weight:800; letter-spacing:0.5px }
+.clock-tz{ margin-top:4px; font-size:11px; color:var(--muted); opacity:.9 }
+
+.title{ flex:1 }
+.title h1{ margin:0 0 6px 0; font-size:20px; letter-spacing:0.4px }
+.title p{ margin:0; color:var(--muted); font-size:14px }
+
+.buttons{ display:flex; gap:10px; flex-wrap:wrap; margin:12px 0 18px 0 }
+
+.btn{
+  display:inline-flex; align-items:center; gap:10px;
+  padding:10px 14px; border-radius:12px; font-weight:600;
+  text-decoration:none; color:var(--text); background:var(--glass);
+  border:1px solid rgba(255,255,255,0.06);
+  transition:transform .14s ease, box-shadow .14s ease, background .2s ease;
+}
+.btn:hover{ transform:translateY(-4px); box-shadow:0 10px 22px rgba(0,0,0,0.45) }
+
+.btn.play{ background: var(--accent1); color:#08101a; box-shadow: 0 8px 24px rgba(255,95,109,0.18) }
+.btn.tv{ background: var(--accent2); color:#fff; box-shadow: 0 8px 24px rgba(37,99,235,0.18) }
+.btn.wa{ background: linear-gradient(90deg,#25D366,#128C7E); color:#fff; box-shadow: 0 8px 24px rgba(18,140,126,0.18) }
+.btn svg{ width:18px; height:18px; flex-shrink:0 }
+
+.links-grid{
+  display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:12px; margin-top:8px;
+}
+.card{
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border-radius:12px; padding:14px; border:1px solid rgba(255,255,255,0.06);
+  display:flex; flex-direction:column; gap:10px; min-height:96px; justify-content:space-between;
+}
+.card h3{ margin:0; font-size:15px }
+.card p{ margin:0; color:var(--muted); font-size:13px }
+
+/* BRAND-COLORED BOXES */
+.brand-888strz{ background: linear-gradient(180deg, rgba(255,76,76,0.20), rgba(255,76,76,0.10)); border-color: rgba(255,76,76,0.35) }
+.brand-1xbet{ background: linear-gradient(180deg, rgba(37,99,235,0.20), rgba(37,99,235,0.10)); border-color: rgba(37,99,235,0.35) }
+.brand-melbet{ background: linear-gradient(180deg, rgba(255,193,7,0.22), rgba(255,193,7,0.10)); border-color: rgba(255,193,7,0.38) }
+.brand-linebet{ background: linear-gradient(180deg, rgba(16,185,129,0.22), rgba(16,185,129,0.10)); border-color: rgba(16,185,129,0.38) }
+.brand-paripuls{ background: linear-gradient(180deg, rgba(185,28,28,0.26), rgba(185,28,28,0.12)); border-color: rgba(185,28,28,0.45) }
+
+footer{ margin-top:18px; color:var(--muted); font-size:13px; text-align:center }
+
+@media (max-width:520px){
+  .header{ flex-direction:column; align-items:flex-start; gap:10px }
+  .buttons{ width:100% }
+  .avatar{ width:100%; height:88px; justify-content:flex-start; padding-left:12px }
+  .clock{ align-items:flex-start }
+}
+
+  </style>
+</head>
+<body>
+  <div class="wrap" role="main" aria-label="Contact and Links">
+    <div class="header">
+      <!-- Avatar now shows LIVE date/time for Sri Lanka instead of the 'KS' text -->
+      <div class="avatar" aria-live="polite" aria-label="Sri Lanka live date and time">
+        <div id="clock" class="clock">
+          <div id="date" class="clock-date">—</div>
+          <div id="time" class="clock-time">—</div>
+          <div class="clock-tz">Sri Lanka Time</div>
+        </div>
+      </div><div class="title">
+    <h1>K N SHASHIPRIYA — EMBILIPITIYA</h1>
+    <p>දුරකථන: +94 72 132 6398</p>
+  </div>
+  <div style="text-align:right">
+    <p style="margin:0;color:var(--muted);font-size:13px">Sri Lanka • BYTEX Links</p>
+  </div>
+</div>
+
+<div class="buttons" aria-label="Primary links">
+  <!-- YouTube -->
+  <a class="btn play" href="https://youtube.com/@aviatorcrashtipslankagamep-i5v?si=CQjFhENoW2kbGHe_" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+      <path d="M23 7.001c0 0-0.2-1.4-0.8-2.02C21.2 4 18.9 4 18.9 4h-13C4.9 4 2.7 4 1.8 4.98 1.2 5.6 1 7.001 1 7.001S1 8.6 1 10.2v3.6C1 15.4 1 16.999 1.8 17.58c0.9 0.98 3.1 0.98 3.1 0.98h13c0 0 2.3 0 3.3-0.98 0.6-0.59 0.8-2.18 0.8-2.18V7.001z" fill="#fff" opacity="0.15"/>
+      <path d="M9.5 9.5l6 3-6 3v-6z" fill="#08101a"/>
+    </svg>
+    YOUTUBE
+  </a>
+  <!-- Telegram -->
+  <a class="btn tv" href="https://t.me/SQL_PREDICTOR_HACK" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+      <path d="M21 3L3 10.5l4 1.5 1.5 4L12 14l4.5 4L21 3z" fill="#fff" opacity="0.12"/>
+      <path d="M3 10.5l16.5-7.5L10 12 7 14l-4 1.5V10.5z" fill="#fff"/>
+    </svg>
+    TELEGRAM
+  </a>
+  <!-- WhatsApp -->
+  <a class="btn wa" href="https://wa.me/94721326398" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+      <path d="M20.5 3.5A11 11 0 1 0 21 14.6L23 21l-6-2.1A11 11 0 0 0 20.5 3.5z" fill="#fff" opacity="0.10"/>
+      <path d="M12 5.5c-3.6 0-6.5 2.9-6.5 6.5 0 1.2.3 2.3.9 3.3L5 19l4.1-1.1c.9.5 1.9.7 2.9.7 3.6 0 6.5-2.9 6.5-6.5S15.6 5.5 12 5.5z" fill="#fff"/>
+    </svg>
+    වට්සැප්
+  </a>
+</div>
+
+<div style="margin-top:6px">
+  <a href="https://naween54321.github.io/SRI_LANKA_BYTEX_SIGNAL_PREDICTOR_2025/" class="btn" target="_blank" rel="noopener" style="padding:10px 12px;border-radius:10px">
+    FREE AVIATOR HACK SRI LANKA — Open
+  </a>
+</div>
+
+<div class="links-grid" style="margin-top:14px" aria-label="Additional pages">
+  <div class="card brand-888strz">
+    <div>
+      <h3>888STRZ — CRASH & APPLE APP / KEY (Sri Lanka)</h3>
+      <p>Buy / Info page — 888STRZ</p>
+    </div>
+    <div style="text-align:right">
+      <a class="btn" href="https://naween54321.github.io/888STRZ-CRASH-APPLE-APP-KEY-BUY-SRI-LANKA-LK/" target="_blank" rel="noopener">Open Page →</a>
+    </div>
+  </div>
+
+  <div class="card brand-1xbet">
+    <div>
+      <h3>1XBET — CRASH APP / KEY (Sri Lanka)</h3>
+      <p>Buy / Info page — 1XBET</p>
+    </div>
+    <div style="text-align:right">
+      <a class="btn" href="https://naween54321.github.io/1XBET-CRASH-APPLE-APP-KEY-BUY-SRI-LANKA-LK/" target="_blank" rel="noopener">Open Page →</a>
+    </div>
+  </div>
+
+  <div class="card brand-melbet">
+    <div>
+      <h3>MELBET — CRASH APP / KEY (Sri Lanka)</h3>
+      <p>Buy / Info page — MELBET</p>
+    </div>
+    <div style="text-align:right">
+      <a class="btn" href="https://naween54321.github.io/MELBET-CRASH-APPLE-APP-KEY-BUY-SRI-LANKA-LK/" target="_blank" rel="noopener">Open Page →</a>
+    </div>
+  </div>
+
+  <div class="card brand-linebet">
+    <div>
+      <h3>LINEBET — CRASH APP / KEY (Sri Lanka)</h3>
+      <p>Buy / Info page — LINEBET</p>
+    </div>
+    <div style="text-align:right">
+      <a class="btn" href="https://naween54321.github.io/LINEBET-CRASH-APPLE-APP-KEY-BUY-SRI-LANKA-LK/" target="_blank" rel="noopener">Open Page →</a>
+    </div>
+  </div>
+
+  <div class="card brand-paripuls">
+    <div>
+      <h3>PARIPULS — CRASH APP / KEY (Sri Lanka)</h3>
+      <p>Buy / Info page — PARIPULS</p>
+    </div>
+    <div style="text-align:right">
+      <a class="btn" href="https://naween54321.github.io/PARIPULS-CRASH-APPLE-APP-KEY-BUY-SRI-LANKA-LK/" target="_blank" rel="noopener">Open Page →</a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  © K N SHASHIPRIYA — EMBILIPITIYA • දුරකථන: +94 72 132 6398
+</footer>
+
+  </div>  <script>
+    // Live Sri Lanka date/time inside the avatar box
+    (function(){
+      const dateEl = document.getElementById('date');
+      const timeEl = document.getElementById('time');
+      function tick(){
+        const now = new Date();
+        try{
+          const dateStr = new Intl.DateTimeFormat('si-LK', {
+            weekday:'short', year:'numeric', month:'short', day:'2-digit', timeZone:'Asia/Colombo'
+          }).format(now);
+          const timeStr = new Intl.DateTimeFormat('si-LK', {
+            hour:'2-digit', minute:'2-digit', second:'2-digit', hour12:false, timeZone:'Asia/Colombo'
+          }).format(now);
+          dateEl.textContent = dateStr;
+          timeEl.textContent = timeStr;
+        }catch(e){
+          // Fallback if Intl or the locale/timezone isn't available
+          const pad=n=>String(n).padStart(2,'0');
+          const d=new Date(now.toLocaleString('en-US',{timeZone:'Asia/Colombo'}));
+          dateEl.textContent = d.getFullYear()+"-"+pad(d.getMonth()+1)+"-"+pad(d.getDate());
+          timeEl.textContent = pad(d.getHours())+":"+pad(d.getMinutes())+":"+pad(d.getSeconds());
+        }
+      }
+      tick();
+      setInterval(tick,1000);
+    })();
+  </script></body>
+</html>
